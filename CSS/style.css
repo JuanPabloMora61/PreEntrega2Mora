@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.barraNav{
+    background-color: #96858f;
+    width: 100%;
+    height: 3rem;
+    
+    display: flex;
+    align-items: center;
+}
+
+.listaNav{
+    width: 100%;
+    height: 3rem;
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.itemNav__link{
+    color: #d5d5d5;
+    font-weight: bold;
+    font-size: large;
+    transition: .5s;
+}
+
+.itemNav__link:hover{
+    color: black;
+    border-bottom: 1px #d5d5d5;
+}
+
+
+#introIndex{
+    position: relative;
+
+    height: auto;
+}
+
+#introIndex img{
+    height: auto;
+    width: 100%;   
+}
+
+#introIndex h1{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: #f4f4f4;
+    font-size: 3rem;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+
+#textoIndex{
+    background-color: #9099a2;
+    height: 55rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parrafo1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.parrafo1__titulo{
+    align-self: flex-start;
+    margin-left: 15rem;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
+    
+}
+
+.parrafo1__texto{
+    background-color: #d5d5d5;
+    width: 50%;
+    margin-top: 4rem;
+    margin-right: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: black;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+
+    align-self: flex-end;
+    text-align: center;
+}
+
+.parrafo2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    
+}
+
+.parrafo2__titulo{
+    align-self: flex-end;
+    margin-right: 25rem;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.parrafo2__texto{
+    background-color: #d5d5d5;
+    width: 50%;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: black;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    
+    
+
+    align-self: flex-start;
+    text-align: center;
+}
+
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    margin-bottom: 8rem;
+}
+
+footer{
+    background-color: #96858f;
+    height: 8rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 0;
+    margin-top: 1rem;
+}
+
+footer .redes{
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.iconRedes{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    padding-top: 1rem;
+}
+
+footer img{
+    width: 3.2rem;
+    padding: .5rem;
+}
+
+.textRedes{
+    display: flex;
+    align-items: center;
+    height: 50%;
+
+    text-align: center;
+}
+
+.textoCita{
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.fichaHist{
+    display: flex;
+    padding: 2rem;
+}
+
+.ficha__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+
+    height: 30rem;
+}
+
+.ficha__card img{
+    width: 30rem;
+}
+
+.ficha__card p{
+    color: #3f4144;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: .7rem;
+}
+
+.textCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.textCard h3{
+    padding-bottom: 1rem;
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.textCard p{
+    padding-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.fondo2{
+    background-color: #d5d5d5;
+}
+
+.fondo1, .fondo3{
+    background-color: #f4f4f4;
+}
+
+.tituloArtistas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+
+    height: 6rem;
+}
+
+.tituloArtistas h2{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+}
+
+.tituloArtistas p, .cardArtista h3, .galeria h3, .descripcionContacto p, .descripcionContacto h3, form label, form legend{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.ficheroArtistas{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+
+.cardArtista{
+    width: 25%;
+    border: 2px solid #d5d5d5;
+    border-radius: 5%;
+    margin: 2rem;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    transition: 1s;
+}
+
+.cardArtista:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.cardArtista img{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 20%;
+}
+
+
+.cardArtista p{
+
+    text-align: center;
+    padding: 1rem;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+
+    padding: 3rem;
+
+}
+
+.galeria__fotos{
+    width: 100%;
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria__fotos img{
+    width: 20rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+    transition: 1s;
+}
+
+.galeria__fotos img:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.borderLine{
+    background-color: #d5d5d5;
+    height: .4rem;
+    border-top: .1rem solid #9099a2;
+    border-bottom: .1rem solid #9099a2;
+}
+
+#galeria2, #galeria4, #galeria6{
+    background-color: beige;
+}
+
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    height: 25rem;
+    padding-top: 1.5rem;
+}
+
+fieldset{
+    width: 40rem;
+    height: 20rem;
+
+    border-radius: 5px;
+
+
+}
+
+.descripcionContacto{
+    height: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 2rem;
+}
+
+.inputTxt{
+    height: 80%;
+    width: 100%;
+
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.inputTxt input{
+    width: 10rem;
+}
+
+.comentario{
+    height: 10rem;
+    position: relative;
+}
+
+.comentario::placeholder{
+    position: absolute;
+}
+
+.inputTxt__field{
+    width: 25rem;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.botonera{
+    height: 20%;
+
+    position: relative;
+}
+
+.botonera__botones{
+    position: absolute;
+    right: 20%;
+    top: 15%;
+}
+
+
