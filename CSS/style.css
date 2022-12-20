@@ -1,23 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.barraNav{
+.barraNav {
     background-color: #96858f;
     width: 100%;
     height: 3rem;
-    
+
     display: flex;
     align-items: center;
 }
 
-.listaNav{
+.listaNav {
     width: 100%;
     height: 3rem;
     list-style: none;
@@ -27,31 +27,31 @@ a{
     justify-content: space-around;
 }
 
-.itemNav__link{
+.itemNav__link {
     color: #d5d5d5;
     font-weight: bold;
     font-size: large;
+
     transition: .5s;
 }
 
-.itemNav__link:hover{
+.itemNav__link:hover {
     color: black;
     border-bottom: 1px #d5d5d5;
 }
 
 
-#introIndex{
+#introIndex {
     position: relative;
-
     height: auto;
 }
 
-#introIndex img{
+#introIndex img {
     height: auto;
-    width: 100%;   
+    width: 100%;
 }
 
-#introIndex h1{
+#introIndex h1 {
     position: absolute;
     top: 35%;
     width: 100%;
@@ -64,8 +64,26 @@ a{
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
+.historiaH1 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: solid black;
+    font-size: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
 
-#textoIndex{
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: solid black;
+    text-align: center;
+    padding: .5rem;
+
+}
+
+
+#textoIndex {
     background-color: #9099a2;
     height: 55rem;
 
@@ -74,22 +92,22 @@ a{
     justify-content: center;
 }
 
-.parrafo1{
+.parrafo1 {
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.parrafo1__titulo{
+.parrafo1__titulo {
     align-self: flex-start;
     margin-left: 15rem;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
 
-    
+
 }
 
-.parrafo1__texto{
+.parrafo1__texto {
     background-color: #d5d5d5;
     width: 50%;
     margin-top: 4rem;
@@ -105,21 +123,21 @@ a{
     text-align: center;
 }
 
-.parrafo2{
+.parrafo2 {
     display: flex;
     flex-direction: column;
     margin-top: 5rem;
-    
+
 }
 
-.parrafo2__titulo{
+.parrafo2__titulo {
     align-self: flex-end;
     margin-right: 25rem;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
 
-.parrafo2__texto{
+.parrafo2__texto {
     background-color: #d5d5d5;
     width: 50%;
     margin-top: 4rem;
@@ -130,23 +148,23 @@ a{
     font-size: 1.2rem;
     font-style: italic;
     font-family: 'Roboto', sans-serif;
-    
-    
+
+
 
     align-self: flex-start;
     text-align: center;
 }
 
-html{
+html {
     min-height: 100%;
     position: relative;
 }
 
-body{
+main {
     margin-bottom: 8rem;
 }
 
-footer{
+footer {
     background-color: #96858f;
     height: 8rem;
     width: 100%;
@@ -160,7 +178,7 @@ footer{
     margin-top: 1rem;
 }
 
-footer .redes{
+footer .redes {
     height: 100%;
 
     display: flex;
@@ -168,19 +186,19 @@ footer .redes{
     align-content: space-around;
 }
 
-.iconRedes{
+.iconRedes {
     display: flex;
     justify-content: center;
     height: 50%;
     padding-top: 1rem;
 }
 
-footer img{
+footer img {
     width: 3.2rem;
     padding: .5rem;
 }
 
-.textRedes{
+.textRedes {
     display: flex;
     align-items: center;
     height: 50%;
@@ -188,18 +206,18 @@ footer img{
     text-align: center;
 }
 
-.textoCita{
+.textoCita {
     font-style: italic;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
 
-.fichaHist{
+.fichaHist {
     display: flex;
     padding: 2rem;
 }
 
-.ficha__card{
+.ficha__card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -209,11 +227,11 @@ footer img{
     height: 30rem;
 }
 
-.ficha__card img{
+.ficha__card img {
     width: 30rem;
 }
 
-.ficha__card p{
+.ficha__card p {
     color: #3f4144;
     font-style: italic;
     font-family: 'Roboto', sans-serif;
@@ -221,14 +239,14 @@ footer img{
     font-size: .7rem;
 }
 
-.textCard{
+.textCard {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 50%;
 }
 
-.textCard h3{
+.textCard h3 {
     padding-bottom: 1rem;
     align-self: center;
     font-family: 'Roboto', sans-serif;
@@ -236,21 +254,22 @@ footer img{
 }
 
 
-.textCard p{
+.textCard p {
     padding-top: 1rem;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
 
-.fondo2{
+.fondo2 {
     background-color: #d5d5d5;
 }
 
-.fondo1, .fondo3{
+.fondo1,
+.fondo3 {
     background-color: #f4f4f4;
 }
 
-.tituloArtistas{
+.tituloArtistas {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -260,18 +279,24 @@ footer img{
     height: 6rem;
 }
 
-.tituloArtistas h2{
+.tituloArtistas h2 {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
     font-weight: 800;
 }
 
-.tituloArtistas p, .cardArtista h3, .galeria h3, .descripcionContacto p, .descripcionContacto h3, form label, form legend{
+.tituloArtistas p,
+.cardArtista h3,
+.galeria h3,
+.descripcionContacto p,
+.descripcionContacto h3,
+form label,
+form legend {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
 
-.ficheroArtistas{
+.ficheroArtistas {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -279,7 +304,7 @@ footer img{
 
 
 
-.cardArtista{
+.cardArtista {
     width: 25%;
     border: 2px solid #d5d5d5;
     border-radius: 5%;
@@ -290,28 +315,34 @@ footer img{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    
+
     transition: 1s;
 }
 
-.cardArtista:hover{
+.cardArtista:hover {
     transform: scale(1.1, 1.1);
 }
 
-.cardArtista img{
+.cardArtista img {
     width: 100%;
+    height: 100%;
     padding: 1rem;
     border-radius: 20%;
 }
 
+.cardArtista__img {
+    height: 70%;
+    width: 100%;
+}
 
-.cardArtista p{
+
+.cardArtista p {
 
     text-align: center;
     padding: 1rem;
 }
 
-.galeria{
+.galeria {
     display: flex;
     flex-direction: column;
 
@@ -319,40 +350,102 @@ footer img{
 
 }
 
-.galeria__fotos{
+.galeria__fotos {
     width: 100%;
-    
+
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 
-.galeria__fotos img{
+.button {
     width: 20rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding: 1.5rem;
 
+    cursor: pointer;
     transition: 1s;
 }
 
-.galeria__fotos img:hover{
+.button:hover {
     transform: scale(1.1, 1.1);
 }
 
-.borderLine{
+
+
+.galeria a {
+    text-align: end;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.borderLine {
     background-color: #d5d5d5;
     height: .4rem;
     border-top: .1rem solid #9099a2;
     border-bottom: .1rem solid #9099a2;
 }
 
-#galeria2, #galeria4, #galeria6{
+#galeria2,
+#galeria4,
+#galeria6 {
     background-color: beige;
 }
 
+/* modal */
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
 
-.formulario{
+.overlay:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup{
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: 80%;
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+
+.popup .close{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.content img{
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    margin: auto;
+}
+
+.formulario {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -361,7 +454,7 @@ footer img{
     padding-top: 1.5rem;
 }
 
-fieldset{
+fieldset {
     width: 40rem;
     height: 20rem;
 
@@ -370,7 +463,7 @@ fieldset{
 
 }
 
-.descripcionContacto{
+.descripcionContacto {
     height: 5rem;
 
     display: flex;
@@ -381,7 +474,7 @@ fieldset{
     margin-top: 2rem;
 }
 
-.inputTxt{
+.inputTxt {
     height: 80%;
     width: 100%;
 
@@ -389,40 +482,38 @@ fieldset{
     flex-flow: nowrap column;
     align-items: center;
     justify-content: space-around;
-    
+
 }
 
-.inputTxt input{
+.inputTxt input {
     width: 10rem;
 }
 
-.comentario{
+.comentario {
     height: 10rem;
     position: relative;
 }
 
-.comentario::placeholder{
+.comentario::placeholder {
     position: absolute;
 }
 
-.inputTxt__field{
+.inputTxt__field {
     width: 25rem;
 
     display: flex;
     justify-content: space-between;
-    
+
 }
 
-.botonera{
+.botonera {
     height: 20%;
 
     position: relative;
 }
 
-.botonera__botones{
+.botonera__botones {
     position: absolute;
     right: 20%;
     top: 15%;
 }
-
-
