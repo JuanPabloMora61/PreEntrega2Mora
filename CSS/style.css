@@ -1,3 +1,4 @@
+/*Reseteo y modificaciónes generales*/
 * {
     margin: 0;
     padding: 0;
@@ -8,39 +9,21 @@ a {
     text-decoration: none;
 }
 
-.barraNav {
-    background-color: #96858f;
-    width: 100%;
-    height: 3rem;
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: solid black;
+    text-align: center;
+    padding: .5rem;
 
-    display: flex;
-    align-items: center;
 }
 
-.listaNav {
-    width: 100%;
-    height: 3rem;
-    list-style: none;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+/*Modificador navbar bootstrap*/
+.colorbarra {
+    background-color: #96858f;   
 }
 
-.itemNav__link {
-    color: #d5d5d5;
-    font-weight: bold;
-    font-size: large;
-
-    transition: .5s;
-}
-
-.itemNav__link:hover {
-    color: black;
-    border-bottom: 1px #d5d5d5;
-}
-
-
+/*Estilo de index*/
 #introIndex {
     position: relative;
     height: auto;
@@ -63,25 +46,6 @@ a {
     font-size: 3rem;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
-
-.historiaH1 {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
-    color: solid black;
-    font-size: 2rem;
-    background-color: #f4f4f4;
-    text-align: center;
-}
-
-h1 {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
-    color: solid black;
-    text-align: center;
-    padding: .5rem;
-
-}
-
 
 #textoIndex {
     background-color: #9099a2;
@@ -155,61 +119,16 @@ h1 {
     text-align: center;
 }
 
-html {
-    min-height: 100%;
-    position: relative;
-}
 
-main {
-    margin-bottom: 8rem;
-}
 
-footer {
-    background-color: #96858f;
-    height: 8rem;
-    width: 100%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: absolute;
-    bottom: 0;
-    margin-top: 1rem;
-}
-
-footer .redes {
-    height: 100%;
-
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;
-}
-
-.iconRedes {
-    display: flex;
-    justify-content: center;
-    height: 50%;
-    padding-top: 1rem;
-}
-
-footer img {
-    width: 3.2rem;
-    padding: .5rem;
-}
-
-.textRedes {
-    display: flex;
-    align-items: center;
-    height: 50%;
-
-    text-align: center;
-}
-
-.textoCita {
-    font-style: italic;
+/*Estilo page historia*/
+.historiaH1 {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
+    color: solid black;
+    font-size: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
 }
 
 .fichaHist {
@@ -228,7 +147,7 @@ footer img {
 }
 
 .ficha__card img {
-    width: 30rem;
+    width: 80%;
 }
 
 .ficha__card p {
@@ -269,6 +188,68 @@ footer img {
     background-color: #f4f4f4;
 }
 
+/*Fijar footer en bottom*/
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+main {
+    margin-bottom: 8rem;
+}
+
+/*Estilo footer*/
+footer {
+    background-color: #96858f;
+    height: 8rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 0;
+    margin-top: 1rem;
+}
+
+footer .redes {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.iconRedes {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    padding-top: 1rem;
+
+}
+
+footer img {
+    width: 3.2rem;
+    padding: .5rem;
+}
+
+.textRedes {
+    display: flex;
+    align-items: center;
+    height: 50%;
+
+    text-align: center;
+}
+
+.textoCita {
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+/*Estilo page artistas*/
 .tituloArtistas {
     display: flex;
     flex-direction: column;
@@ -342,6 +323,7 @@ form legend {
     padding: 1rem;
 }
 
+/*Estilo page galeria*/
 .galeria {
     display: flex;
     flex-direction: column;
@@ -445,6 +427,7 @@ form legend {
     margin: auto;
 }
 
+/*Estilo page contacto*/
 .formulario {
     display: flex;
     justify-content: center;
@@ -516,4 +499,54 @@ fieldset {
     position: absolute;
     right: 20%;
     top: 15%;
+}
+
+/*Estilo mobile*/
+@media screen and (max-width: 420px) {
+    #introIndex h1{
+        font-size: 1.5rem;
+        top: 30%
+    }
+    .parrafo1__titulo, .parrafo2__titulo {
+        align-self: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .parrafo1__texto, .parrafo2__texto{
+        align-self: center;
+        width: 80%;
+        margin-top: 2rem;
+        margin-right: 0;
+        margin-left: 0;
+        font-size: 1rem;
+    }
+
+    .textoCita{
+        font-size: .8rem;
+    }
+
+    .ficha__card{
+        height: 15rem;
+        width: 80%;
+    }
+
+    .ficha__card img {
+        width: 80%;
+        
+    }
+
+    .ficha__card p{
+        font-size: .5rem;
+        
+    }
+
+    .fichaHist{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textCard {
+        width: 80%;
+    }
 }
