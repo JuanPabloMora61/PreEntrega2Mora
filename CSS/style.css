@@ -374,7 +374,7 @@ form legend {
     background-color: beige;
 }
 
-/* modal */
+/*Modal*/
 .overlay{
     position: fixed;
     top: 0;
@@ -385,6 +385,7 @@ form legend {
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
+    
 }
 
 .overlay:target{
@@ -401,6 +402,7 @@ form legend {
     height: 80%;
     position: relative;
     transition: all 1s ease-in-out;
+    
 }
 
 .popup .close{
@@ -423,7 +425,8 @@ form legend {
 .content img{
     align-items: center;
     justify-content: center;
-    height: 90%;
+    height: 95%;
+    padding-bottom: 0rem;
     margin: auto;
 }
 
