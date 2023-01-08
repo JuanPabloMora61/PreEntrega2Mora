@@ -1,0 +1,41 @@
+/*variables*/
+@import "./utilities/variables";
+
+/*Mapas*/
+@import "./utilities/maps.scss";
+
+/*Mixins*/
+@import "./utilities/mixins";
+
+/*Reseteo*/
+@import "./utilities/reset";
+
+/*Selectores generales*/
+@import "./utilities/selectoresGenerales";
+
+/*version mobile*/
+@import "./mobile/queries";
+
+/*Modificador navbar bootstrap*/
+@import "./components/bootstrap_nav.scss";
+
+/*Index*/
+@import "./pages_styles/index.scss";
+
+/*Estilo page historia*/
+@import "./pages_styles/historia.scss";
+
+/*Footer*/
+@import "./components/footer.scss";
+
+/*Estilo page artistas*/
+@import "./pages_styles/artistas.scss";
+
+/*Estilo page galeria*/
+@import "./pages_styles/galeria.scss";
+
+/*Modal*/
+@import "./components/modal.scss";
+
+/*Estilo page contacto*/
+@import "./pages_styles/contacto.scss";

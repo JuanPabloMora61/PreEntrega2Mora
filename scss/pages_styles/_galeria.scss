@@ -1,0 +1,50 @@
+.galeria {
+    display: flex;
+    flex-direction: column;
+
+    padding: 3rem;
+
+    a {
+        text-align: end;
+        text-decoration: none;
+        font-family: $roboto_font;
+    }
+
+    h3{
+        font-family: $roboto_font;
+    }
+
+}
+
+.galeria__fotos {
+    width: 100%;
+
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    width: 20rem;
+    padding: 1.5rem;
+
+    cursor: pointer;
+    transition: 1s;
+
+    &:hover{
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.borderLine {
+    background-color: #d5d5d5;
+    height: .4rem;
+    border-top: .1rem solid #9099a2;
+    border-bottom: .1rem solid #9099a2;
+}
+
+#galeria2,
+#galeria4,
+#galeria6 {
+    background-color: map-get($colores, terciario);
+}

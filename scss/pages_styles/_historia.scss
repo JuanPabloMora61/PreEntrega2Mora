@@ -1,0 +1,61 @@
+.historiaH1 {
+    font-family: $roboto_font;
+    color: solid black;
+    font-size: 2rem;
+    background-color: map-get($colores, primario);
+    text-align: center;
+}
+
+.fichaHist {
+    display: flex;
+    padding: 2rem;
+}
+
+.ficha__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    @include sizes(50%, 30rem);
+
+    img{
+        width: 80%;
+    }
+
+    p{
+        color: #3f4144;
+        font-style: italic;
+        font-family: $roboto_font;
+        font-size: .7rem;
+    }
+}
+
+
+.textCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+
+    h3{
+        padding-bottom: 1rem;
+        align-self: center;
+        font-family: $roboto_font;
+    }
+
+    p{
+        padding-top: 1rem;
+        font-family: $roboto_font;
+    }
+}
+
+
+.fondo2 {
+    background-color: map-get($colores, secundario);
+}
+
+.fondo1,
+.fondo3 {
+    background-color: map-get($colores, primario);
+}

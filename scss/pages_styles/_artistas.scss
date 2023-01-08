@@ -1,0 +1,66 @@
+.tituloArtistas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+
+    height: 6rem;
+
+    h2{
+        font-family: $roboto_font;
+        font-weight: 800;
+    }
+
+    p{
+        font-family: $roboto_font;
+    }
+}
+
+.ficheroArtistas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+
+.cardArtista {
+    width: 25%;
+    border: 2px solid map-get($colores, secundario);
+    border-radius: 5%;
+    margin: 2rem;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    transition: 1s;
+
+    &:hover{
+        transform: scale(1.1, 1.1);
+    }
+
+    img{
+        @include sizes(100%, 90%);
+
+        padding: 1rem;
+        border-radius: 20%; 
+    }
+
+    p{
+        text-align: center;
+        padding: 1rem;
+    }
+
+    h3 {
+        font-family: $roboto_font;
+    }
+}
+
+.cardArtista__img {
+
+    @include sizes(100%, 70%);
+}

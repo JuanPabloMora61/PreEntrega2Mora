@@ -1,0 +1,86 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    height: 25rem;
+    padding-top: 1.5rem;
+}
+
+fieldset {
+    @include sizes(40rem, 20rem);
+
+    border-radius: 5px;
+}
+
+.descripcionContacto {
+    height: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 2rem;
+
+    h3{
+        font-family: $roboto_font;
+    }
+
+    p{
+        font-family: $roboto_font;
+    }
+}
+
+.inputTxt {
+    @include sizes(100%, 80%);
+
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: center;
+    justify-content: space-around;
+
+    input {
+        width: 10rem;
+    }
+
+}
+
+.comentario {
+    height: 10rem;
+    position: relative;
+
+    &::placeholder{
+        position: absolute;
+    }
+}
+
+.inputTxt__field {
+    width: 25rem;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.botonera {
+    height: 20%;
+
+    position: relative;
+}
+
+.botonera__botones {
+    position: absolute;
+    right: 20%;
+    top: 15%;
+}
+
+form{
+    legend{
+        font-family: $roboto_font;
+    }
+
+    label{
+        font-family: $roboto_font;
+    }
+}
