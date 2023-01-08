@@ -5,90 +5,123 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /*Selectores generales*/
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 h1 {
   font-family: "Roboto slab", serif;
   color: solid black;
   text-align: center;
-  padding: .5rem; }
+  padding: .5rem;
+}
 
 /*version mobile*/
 @media screen and (max-width: 420px) {
+
   /*Index*/
   #introIndex h1 {
     font-size: 1.5rem;
-    top: 30%; }
-  .parrafo1__titulo, .parrafo2__titulo {
+    top: 30%;
+  }
+
+  .parrafo1__titulo,
+  .parrafo2__titulo {
     align-self: center;
     margin-left: 0;
-    margin-right: 0; }
-  .parrafo1__texto, .parrafo2__texto {
+    margin-right: 0;
+  }
+
+  .parrafo1__texto,
+  .parrafo2__texto {
     align-self: center;
     width: 80%;
     margin-top: 2rem;
     margin-right: 0;
     margin-left: 0;
-    font-size: 1rem; }
+    font-size: 1rem;
+  }
+
   /*Historia*/
   .textoCita {
-    font-size: .8rem; }
+    font-size: .8rem;
+  }
+
   .ficha__card {
     height: 15rem;
-    width: 80%; }
-    .ficha__card img {
-      width: 80%; }
-    .ficha__card p {
-      font-size: .5rem; }
+    width: 80%;
+  }
+
+  .ficha__card img {
+    width: 80%;
+  }
+
+  .ficha__card p {
+    font-size: .5rem;
+  }
+
   .fichaHist {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+  }
+
   .textCard {
-    width: 80%; } }
+    width: 80%;
+  }
+}
 
 /*Modificador navbar bootstrap*/
 /*Modificador navbar bootstrap*/
 .colorbarra {
-  background-color: #96858f; }
+  background-color: #96858f;
+}
 
 /*Index*/
 /*Estilo de index*/
 #introIndex {
   position: relative;
-  height: auto; }
-  #introIndex img {
-    height: auto;
-    width: 100%; }
-  #introIndex h1 {
-    position: absolute;
-    top: 35%;
-    width: 100%;
-    text-align: center;
-    font-family: "Roboto slab", serif;
-    color: #f4f4f4;
-    font-size: 3rem;
-    text-shadow: black 0.1em 0.1em 0.2em; }
+  height: auto;
+}
+
+#introIndex img {
+  height: auto;
+  width: 100%;
+}
+
+#introIndex h1 {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  font-family: "Roboto slab", serif;
+  color: #f4f4f4;
+  font-size: 3rem;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
 
 #textoIndex {
   background-color: #9099a2;
   height: 55rem;
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .parrafo1 {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 .parrafo1__titulo {
   align-self: flex-start;
   margin-left: 15rem;
-  font-family: "Roboto slab", serif; }
+  font-family: "Roboto slab", serif;
+}
 
 .parrafo1__texto {
   background-color: #d5d5d5;
@@ -102,17 +135,20 @@ h1 {
   font-style: italic;
   font-family: "Roboto slab", serif;
   align-self: flex-end;
-  text-align: center; }
+  text-align: center;
+}
 
 .parrafo2 {
   display: flex;
   flex-direction: column;
-  margin-top: 5rem; }
+  margin-top: 5rem;
+}
 
 .parrafo2__titulo {
   align-self: flex-end;
   margin-right: 25rem;
-  font-family: "Roboto slab", serif; }
+  font-family: "Roboto slab", serif;
+}
 
 .parrafo2__texto {
   background-color: #d5d5d5;
@@ -126,7 +162,8 @@ h1 {
   font-style: italic;
   font-family: "Roboto slab", serif;
   align-self: flex-start;
-  text-align: center; }
+  text-align: center;
+}
 
 /*Estilo page historia*/
 .historiaH1 {
@@ -134,11 +171,13 @@ h1 {
   color: solid black;
   font-size: 2rem;
   background-color: #f4f4f4;
-  text-align: center; }
+  text-align: center;
+}
 
 .fichaHist {
   display: flex;
-  padding: 2rem; }
+  padding: 2rem;
+}
 
 .ficha__card {
   display: flex;
@@ -146,43 +185,57 @@ h1 {
   align-items: center;
   justify-content: space-around;
   height: 30rem;
-  width: 50%; }
-  .ficha__card img {
-    width: 80%; }
-  .ficha__card p {
-    color: #3f4144;
-    font-style: italic;
-    font-family: "Roboto slab", serif;
-    font-size: .7rem; }
+  width: 50%;
+}
+
+.ficha__card img {
+  width: 80%;
+}
+
+.ficha__card p {
+  color: #3f4144;
+  font-style: italic;
+  font-family: "Roboto slab", serif;
+  font-size: .7rem;
+}
 
 .textCard {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%; }
-  .textCard h3 {
-    padding-bottom: 1rem;
-    align-self: center;
-    font-family: "Roboto slab", serif; }
-  .textCard p {
-    padding-top: 1rem;
-    font-family: "Roboto slab", serif; }
+  width: 50%;
+}
+
+.textCard h3 {
+  padding-bottom: 1rem;
+  align-self: center;
+  font-family: "Roboto slab", serif;
+}
+
+.textCard p {
+  padding-top: 1rem;
+  font-family: "Roboto slab", serif;
+}
 
 .fondo2 {
-  background-color: #d5d5d5; }
+  background-color: #d5d5d5;
+}
 
 .fondo1,
 .fondo3 {
-  background-color: #f4f4f4; }
+  background-color: #f4f4f4;
+}
 
 /*Footer*/
 /*Fijar footer en bottom*/
 html {
   min-height: 100%;
-  position: relative; }
+  position: relative;
+}
 
 main {
-  margin-bottom: 8rem; }
+  margin-bottom: 8rem;
+}
 
 /*Estilo footer*/
 footer {
@@ -194,32 +247,40 @@ footer {
   justify-content: center;
   position: absolute;
   bottom: 0;
-  margin-top: 1rem; }
-  footer .redes {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;
-    margin-bottom: 1rem; }
-  footer img {
-    width: 3.2rem;
-    padding: .5rem; }
+  margin-top: 1rem;
+}
+
+footer .redes {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  margin-bottom: 1rem;
+}
+
+footer img {
+  width: 3.2rem;
+  padding: .5rem;
+}
 
 .iconRedes {
   display: flex;
   justify-content: center;
   height: 50%;
-  padding-top: 1rem; }
+  padding-top: 1rem;
+}
 
 .textRedes {
   display: flex;
   align-items: center;
   height: 50%;
-  text-align: center; }
+  text-align: center;
+}
 
 .textoCita {
   font-style: italic;
-  font-family: "Roboto slab", serif; }
+  font-family: "Roboto slab", serif;
+}
 
 /*Estilo page artistas*/
 .tituloArtistas {
@@ -228,17 +289,23 @@ footer {
   align-items: center;
   justify-content: space-around;
   margin-top: 1.5rem;
-  height: 6rem; }
-  .tituloArtistas h2 {
-    font-family: "Roboto slab", serif;
-    font-weight: 800; }
-  .tituloArtistas p {
-    font-family: "Roboto slab", serif; }
+  height: 6rem;
+}
+
+.tituloArtistas h2 {
+  font-family: "Roboto slab", serif;
+  font-weight: 800;
+}
+
+.tituloArtistas p {
+  font-family: "Roboto slab", serif;
+}
 
 .ficheroArtistas {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+}
 
 .cardArtista {
   width: 25%;
@@ -249,59 +316,80 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  transition: 1s; }
-  .cardArtista:hover {
-    transform: scale(1.1, 1.1); }
-  .cardArtista img {
-    height: 90%;
-    width: 100%;
-    padding: 1rem;
-    border-radius: 20%; }
-  .cardArtista p {
-    text-align: center;
-    padding: 1rem; }
-  .cardArtista h3 {
-    font-family: "Roboto slab", serif; }
+  transition: 1s;
+}
+
+.cardArtista:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.cardArtista img {
+  height: 90%;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 20%;
+}
+
+.cardArtista p {
+  text-align: center;
+  padding: 1rem;
+}
+
+.cardArtista h3 {
+  font-family: "Roboto slab", serif;
+}
 
 .cardArtista__img {
   height: 70%;
-  width: 100%; }
+  width: 100%;
+}
 
 /*Estilo page galeria*/
 .galeria {
   display: flex;
   flex-direction: column;
-  padding: 3rem; }
-  .galeria a {
-    text-align: end;
-    text-decoration: none;
-    font-family: "Roboto slab", serif; }
-  .galeria h3 {
-    font-family: "Roboto slab", serif; }
+  padding: 3rem;
+}
+
+.galeria a {
+  text-align: end;
+  text-decoration: none;
+  font-family: "Roboto slab", serif;
+}
+
+.galeria h3 {
+  font-family: "Roboto slab", serif;
+}
 
 .galeria__fotos {
   width: 100%;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+}
 
 .button {
   width: 20rem;
   padding: 1.5rem;
   cursor: pointer;
-  transition: 1s; }
-  .button:hover {
-    transform: scale(1.1, 1.1); }
+  transition: 1s;
+}
+
+.button:hover {
+  transform: scale(1.1, 1.1);
+}
 
 .borderLine {
   background-color: #d5d5d5;
   height: .4rem;
   border-top: .1rem solid #9099a2;
-  border-bottom: .1rem solid #9099a2; }
+  border-bottom: .1rem solid #9099a2;
+}
 
 #galeria2,
 #galeria4,
 #galeria6 {
-  background-color: beige; }
+  background-color: beige;
+}
 
 /*Modal*/
 .overlay {
@@ -313,10 +401,13 @@ footer {
   background: rgba(0, 0, 0, 0.7);
   transition: opacity 500ms;
   visibility: hidden;
-  opacity: 0; }
-  .overlay:target {
-    visibility: visible;
-    opacity: 1; }
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
 
 .popup {
   margin: 70px auto;
@@ -326,27 +417,33 @@ footer {
   width: 100%;
   height: 80%;
   position: relative;
-  transition: all 1s ease-in-out; }
-  .popup .close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    transition: all 200ms;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #333; }
+  transition: all 1s ease-in-out;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
 
 .content {
   width: 100%;
   height: 100%;
-  display: flex; }
-  .content img {
-    align-items: center;
-    justify-content: center;
-    height: 95%;
-    padding-bottom: 0rem;
-    margin: auto; }
+  display: flex;
+}
+
+.content img {
+  align-items: center;
+  justify-content: center;
+  height: 95%;
+  padding-bottom: 0rem;
+  margin: auto;
+}
 
 /*Estilo page contacto*/
 .formulario {
@@ -354,12 +451,14 @@ footer {
   justify-content: center;
   align-items: flex-start;
   height: 25rem;
-  padding-top: 1.5rem; }
+  padding-top: 1.5rem;
+}
 
 fieldset {
   height: 20rem;
   width: 40rem;
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 .descripcionContacto {
   height: 5rem;
@@ -367,11 +466,16 @@ fieldset {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin-top: 2rem; }
-  .descripcionContacto h3 {
-    font-family: "Roboto slab", serif; }
-  .descripcionContacto p {
-    font-family: "Roboto slab", serif; }
+  margin-top: 2rem;
+}
+
+.descripcionContacto h3 {
+  font-family: "Roboto slab", serif;
+}
+
+.descripcionContacto p {
+  font-family: "Roboto slab", serif;
+}
 
 .inputTxt {
   height: 80%;
@@ -379,32 +483,43 @@ fieldset {
   display: flex;
   flex-flow: nowrap column;
   align-items: center;
-  justify-content: space-around; }
-  .inputTxt input {
-    width: 10rem; }
+  justify-content: space-around;
+}
+
+.inputTxt input {
+  width: 10rem;
+}
 
 .comentario {
   height: 10rem;
-  position: relative; }
-  .comentario::placeholder {
-    position: absolute; }
+  position: relative;
+}
+
+.comentario::placeholder {
+  position: absolute;
+}
 
 .inputTxt__field {
   width: 25rem;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .botonera {
   height: 20%;
-  position: relative; }
+  position: relative;
+}
 
 .botonera__botones {
   position: absolute;
   right: 20%;
-  top: 15%; }
+  top: 15%;
+}
 
 form legend {
-  font-family: "Roboto slab", serif; }
+  font-family: "Roboto slab", serif;
+}
 
 form label {
-  font-family: "Roboto slab", serif; }
+  font-family: "Roboto slab", serif;
+}
