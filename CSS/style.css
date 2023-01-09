@@ -195,9 +195,8 @@ footer {
   justify-content: space-around;
   margin-top: 1.5rem;
   height: 6rem; }
-  .tituloArtistas h2 {
-    font-family: "Roboto slab", serif;
-    font-weight: 800; }
+  .tituloArtistas h1 {
+    font-family: "Roboto slab", serif; }
   .tituloArtistas p {
     font-family: "Roboto slab", serif; }
 
@@ -334,7 +333,7 @@ fieldset {
   justify-content: space-around;
   align-items: center;
   margin-top: 2rem; }
-  .descripcionContacto h3 {
+  .descripcionContacto h1 {
     font-family: "Roboto slab", serif; }
   .descripcionContacto p {
     font-family: "Roboto slab", serif; }
@@ -409,4 +408,40 @@ form label {
     flex-direction: column;
     align-items: center; }
   .textCard {
-    width: 80%; } }
+    width: 80%; }
+  .tituloArtistas h1 {
+    font-size: 1.5rem; }
+  .tituloArtistas p {
+    font-size: .9rem; }
+  .cardArtista {
+    width: 100%; }
+  /*Galeria*/
+  .galeria__fotos {
+    justify-content: center; }
+  /*Contacto*/
+  .descripcionContacto p {
+    font-size: .9rem;
+    padding-left: .5rem;
+    padding-right: .5rem; }
+  fieldset {
+    height: 20rem;
+    width: 80%; }
+    fieldset legend {
+      font-size: 1rem;
+      text-align: center;
+      padding-bottom: 1rem; }
+    fieldset label {
+      font-size: .9rem;
+      padding-right: 1rem; }
+  .formulario {
+    width: 100%; }
+  .inputTxt {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+  .inputTxt__field {
+    width: 100%;
+    padding-top: .5rem;
+    padding-bottom: .5rem; }
+  .botonera__botones {
+    top: 40%; } }
