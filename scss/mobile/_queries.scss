@@ -1,48 +1,53 @@
 @media screen and (max-width: 420px) {
+
     /*Index*/
-     #introIndex h1{
-         font-size: 1.5rem;
-         top: 30%
-     }
-     .parrafo1__titulo, .parrafo2__titulo {
-         align-self: center;
-         margin-left: 0;
-         margin-right: 0;
-     }
-     .parrafo1__texto, .parrafo2__texto{
-         align-self: center;
-         width: 80%;
-         margin-top: 2rem;
-         margin-right: 0;
-         margin-left: 0;
-         font-size: 1rem;
-     }
- 
-     /*Historia*/
-     .textoCita{
-         font-size: .8rem;
-     }
- 
-     .ficha__card{
-         height: 15rem;
-         width: 80%;
- 
-         img {
-             width: 80%;
-         }
- 
-         p{
-             font-size: .5rem;
-         }
-     }
- 
-     .fichaHist{
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-     }
- 
-     .textCard {
-         width: 80%;
-     }
- }
+    #introIndex h1 {
+        font-size: 1.5rem;
+        top: 30%
+    }
+
+    .parrafo1__titulo,
+    .parrafo2__titulo {
+        align-self: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .parrafo1__texto,
+    .parrafo2__texto {
+        align-self: center;
+        width: 80%;
+        margin-top: 2rem;
+        margin-right: 0;
+        margin-left: 0;
+        font-size: 1rem;
+    }
+
+    /*Historia*/
+    .textoCita {
+        font-size: .8rem;
+    }
+
+    .ficha__card {
+        height: 15rem;
+        width: 80%;
+
+        img {
+            width: 80%;
+        }
+
+        p {
+            font-size: .5rem;
+        }
+    }
+
+    .fichaHist {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textCard {
+        width: 80%;
+    }
+}

@@ -13,9 +13,6 @@
 /*Selectores generales*/
 @import "./utilities/selectoresGenerales";
 
-/*version mobile*/
-@import "./mobile/queries";
-
 /*Modificador navbar bootstrap*/
 @import "./components/bootstrap_nav.scss";
 
@@ -39,3 +36,6 @@
 
 /*Estilo page contacto*/
 @import "./pages_styles/contacto.scss";
+
+/*version mobile*/
+@import "./mobile/queries";
