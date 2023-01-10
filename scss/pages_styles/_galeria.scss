@@ -10,7 +10,7 @@
         font-family: $roboto_font;
     }
 
-    h3{
+    h3 {
         font-family: $roboto_font;
     }
 
@@ -31,7 +31,7 @@
     cursor: pointer;
     transition: 1s;
 
-    &:hover{
+    &:hover {
         transform: scale(1.1, 1.1);
     }
 }

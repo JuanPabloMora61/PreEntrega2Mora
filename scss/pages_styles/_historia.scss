@@ -19,11 +19,11 @@
 
     @include sizes(50%, 30rem);
 
-    img{
+    img {
         width: 80%;
     }
 
-    p{
+    p {
         color: #3f4144;
         font-style: italic;
         font-family: $roboto_font;
@@ -38,13 +38,13 @@
     justify-content: center;
     width: 50%;
 
-    h3{
+    h3 {
         padding-bottom: 1rem;
         align-self: center;
         font-family: $roboto_font;
     }
 
-    p{
+    p {
         padding-top: 1rem;
         font-family: $roboto_font;
     }

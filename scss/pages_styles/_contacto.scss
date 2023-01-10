@@ -23,11 +23,11 @@ fieldset {
 
     margin-top: 2rem;
 
-    h1{
+    h1 {
         font-family: $roboto_font;
     }
 
-    p{
+    p {
         font-family: $roboto_font;
     }
 }
@@ -50,7 +50,7 @@ fieldset {
     height: 10rem;
     position: relative;
 
-    &::placeholder{
+    &::placeholder {
         position: absolute;
     }
 }
@@ -75,12 +75,12 @@ fieldset {
     top: 15%;
 }
 
-form{
-    legend{
+form {
+    legend {
         font-family: $roboto_font;
     }
 
-    label{
+    label {
         font-family: $roboto_font;
     }
 }

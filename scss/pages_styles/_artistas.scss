@@ -7,11 +7,11 @@
 
     height: 6rem;
 
-    h1{
+    h1 {
         font-family: $roboto_font;
     }
 
-    p{
+    p {
         font-family: $roboto_font;
     }
 }
@@ -36,18 +36,18 @@
 
     transition: 1s;
 
-    &:hover{
+    &:hover {
         transform: scale(1.1, 1.1);
     }
 
-    img{
+    img {
         @include sizes(100%, 90%);
 
         padding: 1rem;
-        border-radius: 20%; 
+        border-radius: 20%;
     }
 
-    p{
+    p {
         text-align: start;
         padding: 1rem;
     }
