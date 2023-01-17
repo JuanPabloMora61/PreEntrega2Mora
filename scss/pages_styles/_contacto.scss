@@ -1,96 +1,94 @@
-
-
 .descripcionContacto {
-    height: 5rem;
+  height: 5rem;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 
-    margin-top: 2rem;
+  margin-top: 2rem;
 
-    h1 {
-        font-family: $roboto_font;
-    }
+  h1 {
+    font-family: $roboto_font;
+  }
 
-    p {
-        width: 70%;
-        font-family: $roboto_font;
-    }
+  p {
+    width: 70%;
+    font-family: $roboto_font;
+  }
 }
 
 #form {
-    position: relative;
-    width: 500px;
-    margin: 50px auto 100px auto;
-  }
-  
-  input {
-    font-family: $roboto_font;
-    font-size: 0.875em;
-    width: 470px;
-    height: 50px;
-    padding: 0px 15px 0px 15px;
-    
-    background: transparent;
-    outline: none;
-    color: map-get($colores, secundario);
-    
-    border: solid 1px #b3aca7;
-    border-bottom: none;
-    
-    transition: all 0.3s ease-in-out;
-    
-  }
-  
-  input:hover {
-    background: #b3aca7;
-    color: #e2dedb;
-  }
-  
-  textarea {
-    width: 470px;
-    max-width: 470px;
-    height: 110px;
-    max-height: 110px;
-    padding: 15px;
-    
-    background: transparent;
-    outline: none;
-    
-    color: #726659;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.875em;
-    
-    border: solid 1px #b3aca7;
-    
-    transition: all 0.3s ease-in-out;
-    
-  }
-  
-  textarea:hover {
-    background: #b3aca7;
-    color: #e2dedb;
-  }
-  
-  #submit {
-    width: 94%;
-    
-    padding: 0;
-    margin: -5px 0px 0px 0px;
-    
-    font-family: $roboto_font;
-    font-size: 0.875em;
-    color: #b3aca7;
-    
-    outline:none;
-    cursor: pointer;
-    
-    border: solid 1px #b3aca7;
-    border-top: none;
-  }
-  
-  #submit:hover {
-    color: #e2dedb;
-  }
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-family: $roboto_font;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+
+  background: transparent;
+  outline: none;
+  color: map-get($colores, secundario);
+
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+
+  transition: all 0.3s ease-in-out;
+
+}
+
+input:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+
+  background: transparent;
+  outline: none;
+
+  color: #726659;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+
+  border: solid 1px #b3aca7;
+
+  transition: all 0.3s ease-in-out;
+
+}
+
+textarea:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+#submit {
+  width: 94%;
+
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+
+  font-family: $roboto_font;
+  font-size: 0.875em;
+  color: #b3aca7;
+
+  outline: none;
+  cursor: pointer;
+
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #e2dedb;
+}
