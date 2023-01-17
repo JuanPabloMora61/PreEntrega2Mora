@@ -3,7 +3,10 @@
     /*Index*/
     #introIndex h1 {
         font-size: 1.5rem;
-        top: 30%
+        top: 25%;
+        font-weight: 600;
+        
+        
     }
 
     .parrafo1__titulo,
@@ -30,14 +33,17 @@
 
     .ficha__card {
         height: 15rem;
-        width: 80%;
+        width: 100%;
 
         img {
-            width: 80%;
+            width: 100%;
         }
 
         p {
-            font-size: .5rem;
+            font-size: .8rem;
+            padding-top: .5rem;
+            padding-bottom: .5rem;
+            text-align: center;
         }
     }
 
@@ -49,6 +55,10 @@
 
     .textCard {
         width: 80%;
+
+        p{
+            text-align: justify;
+        }
     }
 
     .tituloArtistas {
@@ -73,73 +83,33 @@
 
     /*Contacto*/
     .descripcionContacto {
+        h1{
+            margin-top: 3rem;
+        }
+        
         p {
             font-size: .9rem;
             padding-left: .5rem;
             padding-right: .5rem;
-        }
-    }
-
-    fieldset {
-        @include sizes(80%, 20rem);
-
-        legend {
-            font-size: 1rem;
-            text-align: center;
             padding-bottom: 1rem;
         }
-
-        label {
-            font-size: .9rem;
-            padding-right: 1rem;
-        }
     }
 
-    .formulario {
-        width: 100%;
-
+    #form{
+        width: 300px;
+        margin-top: 30%;
+    }
+    input{
+        width: 300px;
     }
 
-    .inputTxt {
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
+    textarea{
+        width: 300px;
     }
 
-    .inputTxt__field {
-        width: 100%;
-        padding-top: .5rem;
-        padding-bottom: .5rem;
-
-    }
-
-    .botonera__botones {
-        top: 40%;
+    #submit{
+        width: 300px;
     }
 
 }
 
-@media screen and (max-width:904px){
-    /*Index*/
-    #introIndex h1 {
-        font-size: 2rem;
-        top: 30%
-    }
-
-    .parrafo1__titulo,
-    .parrafo2__titulo {
-        align-self: center;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .parrafo1__texto,
-    .parrafo2__texto {
-        align-self: center;
-        width: 80%;
-        margin-top: 1rem;
-        margin-right: 0;
-        margin-left: 0;
-        font-size: 1rem;
-    }
-}

@@ -83,42 +83,14 @@
             formulario siguiente:
           </p>
         </div>
-
-        <div class="formulario">
-          <form action="" method="get" enctype="text/plain">
-            <fieldset>
-              <legend>Datos de contacto:</legend>
-              <div class="inputTxt">
-                <div class="inputTxt__field">
-                  <label for="nombreCompleto">Nombre Completo:</label>
-                  <input
-                    type="text"
-                    class="nombreCompleto"
-                    placeholder="Obligatorio*"
-                  />
-                </div>
-                <div class="inputTxt__field">
-                  <label for="email">Correo electrónico:</label>
-                  <input type="text" class="email" placeholder="Obligatorio*" />
-                </div>
-                <div class="inputTxt__field">
-                  <label for="comentario">Cuéntanos sobre tu interés:</label>
-                  <input
-                    type="text"
-                    class="comentario"
-                    placeholder="Opcional"
-                  />
-                </div>
-              </div>
-              <div class="botonera">
-                <div class="botonera__botones">
-                  <input type="submit" value="Enviar" />
-                  <input type="reset" value="Resetear" />
-                </div>
-              </div>
-            </fieldset>
-          </form>
-        </div>
+        <form id="form" class="topBefore">
+		
+          <input id="name" type="text" placeholder="Nombre">
+          <input id="email" type="text" placeholder="E-mail">
+          <textarea id="message" type="text" placeholder="Comentario"></textarea>
+      <input id="submit" type="submit" value="Enviar">
+      
+    </form>
       </section>
     </main>
     <footer>

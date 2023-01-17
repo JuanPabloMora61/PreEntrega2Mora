@@ -1,17 +1,4 @@
-.formulario {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
 
-    height: 25rem;
-    padding-top: 1.5rem;
-}
-
-fieldset {
-    @include sizes(40rem, 20rem);
-
-    border-radius: 5px;
-}
 
 .descripcionContacto {
     height: 5rem;
@@ -28,59 +15,82 @@ fieldset {
     }
 
     p {
+        width: 70%;
         font-family: $roboto_font;
     }
 }
 
-.inputTxt {
-    @include sizes(100%, 80%);
-
-    display: flex;
-    flex-flow: nowrap column;
-    align-items: center;
-    justify-content: space-around;
-
-    input {
-        width: 10rem;
-    }
-
-}
-
-.comentario {
-    height: 10rem;
+#form {
     position: relative;
-
-    &::placeholder {
-        position: absolute;
-    }
-}
-
-.inputTxt__field {
-    width: 25rem;
-
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.botonera {
-    height: 20%;
-
-    position: relative;
-}
-
-.botonera__botones {
-    position: absolute;
-    right: 20%;
-    top: 15%;
-}
-
-form {
-    legend {
-        font-family: $roboto_font;
-    }
-
-    label {
-        font-family: $roboto_font;
-    }
-}
+    width: 500px;
+    margin: 50px auto 100px auto;
+  }
+  
+  input {
+    font-family: $roboto_font;
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    
+    background: transparent;
+    outline: none;
+    color: map-get($colores, secundario);
+    
+    border: solid 1px #b3aca7;
+    border-bottom: none;
+    
+    transition: all 0.3s ease-in-out;
+    
+  }
+  
+  input:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+  }
+  
+  textarea {
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    
+    background: transparent;
+    outline: none;
+    
+    color: #726659;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    
+    border: solid 1px #b3aca7;
+    
+    transition: all 0.3s ease-in-out;
+    
+  }
+  
+  textarea:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+  }
+  
+  #submit {
+    width: 94%;
+    
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    
+    font-family: $roboto_font;
+    font-size: 0.875em;
+    color: #b3aca7;
+    
+    outline:none;
+    cursor: pointer;
+    
+    border: solid 1px #b3aca7;
+    border-top: none;
+  }
+  
+  #submit:hover {
+    color: #e2dedb;
+  }
